@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="css\main.css">
+</head>
+
+<body>
+
+    <!-- header -->
+    <header>
+        <h1>BMI CALCULATOR</h1>
+    </header>
+
+    <!-- main -->
+    <main>
+
+        <!-- sub-main 1 ()-->
+        <div id="main_content1">
+            <h2>Yuk! Hitung BMI Mu</h2>
+            <img src="assets\rb_5984.png" alt="logo">
+            <br>
+            <div>
+                BMI Calculator, ketahui kondisi kesehatanmu dengan mudah!
+            </div>
+            <div class="clear"></div>
+        </div>
+
+        <!-- sub-main 2 (Kalkulator BMI) -->
+        <div id="main_content2">
+            <div id="square1">
+                <h2>BMI Calculator</h2>
+
+                <hr>
+
+                <p></p>
+
+                <form onsubmit="hitung_BMI(event)">  
+                    <label>Berat Badan (kg) :</label>
+                    <br>
+                    <input type="text" name="weight" id="weight" placeholder="Berat Badan" required>
+                    <br><br>
+                    <label>Tinggi Badan (m) :</label>
+                    <br>
+                    <input type="text" name="height" id="height" placeholder="Tinggi Badan" required>
+                    <br><br>
+                    <button type="submit" onclick="hitung_BMI()">Calculate</button>
+                </form>
+            </div><div id="square2">
+                <h2>Hasil Pengukuran</h2>
+
+                <hr>
+
+                <div id="result">
+                    <p>Hasil perhitungan BMI mu : </p>
+                    <p id="bmi"></p>
+                    <p>Kamu termasuk kedalam kategori: </p>
+                    <p id="category"></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- sub-main 3 (Kategori BMI) -->
+        <div id="main_content3">
+            <div id="sub1">
+                <div>
+                    <h2>What is BMI?</h2>
+                </div>
+                
+                <p>
+                    BMI (Body Mass Index) adalah ukuran perkiraan lemak tubuh seseorang yang dihitung 
+                    berdasarkan berat badan dan tinggi badan. BMI digunakan untuk menentukan 
+                    kategori berat badan seseorang, apakah kurus, ideal, berlebihan, atau obesitas
+                </p>
+            </div>
+
+            <div id="sub2">
+                <p> 
+                    Dengan mengetahui BMI masing-masing, kita dapat memantau kesehatan tubuh dan 
+                    mencegah risiko penyakit akibat berat badan yang tidak ideal, 
+                    contohnya seperti obesitas atau malnutrisi
+                </p>
+
+                <div>
+                    <h2>
+                        Why is BMI important?
+                    </h2>
+                </div>
+            </div>
+        </div>
+
+            <!-- sub-main4 (Kategori BMI) -->
+
+        <div id="main_content4">
+            <div id="sub1">
+                <h2>How to Calculate Your BMI</h2>
+        
+                <p>
+                    BMI dihitung dengan cara membagi berat badan dalam 
+                    kilogram dengan tinggi badan dalam meter kuadrat
+                    BMI = weight (kg) / height (m) x height (m)
+                </p>
+
+            </div>
+
+            <div id="sub2">
+                <h2>BMI Categories</h2>
+
+                <table>
+                    <tr id="table-header">
+                        <th>Category</th>
+                        <th>BMI Range</th>
+                    </tr>
+                    <tr>
+                        <td>Underweight</td>
+                        <td>Less than 18.5</td>
+                    </tr>
+                    <tr>
+                        <td>Normal weight</td>
+                        <td>18.5 - 24.9</td>
+                    </tr>
+                    <tr>
+                        <td>Overweight</td>
+                        <td>25 - 29.9</td>
+                    </tr>
+                    <tr>
+                        <td>Obesity</td>
+                        <td>30 or more</td>
+                    </tr>
+                </table>  
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div>background and vector assets from freepik</div>
+        <br>
+        <div>&copy; 2025 Fazuu_Izu</div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,307 @@
+
+
+body {
+    background-image: url("../assets/rb_540.png");
+    background-size: 50%;
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-color: #fff3f3;
+    font-family: poppins, sans-serif;
+    font-size: 16px/28px;
+    margin: 0;
+    padding: 0;
+}
+
+/* header */
+
+header {
+    position: fixed;
+    background-color: #ac9cfa;
+    color: #f1f1f1;
+    top: 0;
+    width: 100%; 
+    z-index: 1000;
+}
+
+header h1 {
+    display: inline-block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 70px;
+}
+
+/* main content1 */
+
+main #main_content1 {
+    display: inline-block;
+    background-color: #FFA45c;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 100%;
+}
+
+main #main_content1 h2 {
+    display: inline-block;
+    padding-right: 150px;
+    margin-top: 150px;
+    margin-bottom: 60px;
+    padding-left: 100px;
+    font-size: 60px;
+}
+
+main #main_content1 img {
+    float: right;
+    padding-right: 150px;
+    padding-top: 100px;
+    width: 500px;
+    height: auto;
+}
+
+main #main_content1 div {
+    display: inline-block;
+    margin-top: 150px; /* Mengurangi margin-top agar tidak terlalu besar */
+    margin-left: 100px;
+    padding-bottom: 120px;
+    font-size: 30px;
+}
+
+/* main content2 */
+
+main #main_content2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 100%;
+}
+
+/*  square1 */
+
+main div #square1 {
+    display: inline-block;
+    background-color: #c4d9ff;
+    margin-right: 50px;
+    padding: 100px;
+    padding-bottom: 120px;
+    border-radius: 20px;
+}
+
+main div #square1 h2 {
+    display: inline-block;
+    padding-right: 50px;
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+
+main div #square1 form {
+    display: inline-block;
+    font-size: 25px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    line-height: 1.5;
+}
+
+form input{
+    border : none;
+    padding-right: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+form button {
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+/* square2 */
+
+main div #square2 {
+    display: inline-block;
+    background-color: #c5bebe;
+    margin-left: 50px;
+    padding: 100px;
+    padding-bottom: 120px;
+    border-radius: 20px;
+}
+
+main div #square2 h2 {
+    display: inline-block;
+    padding-right: 50px;
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+
+main div #square2 #result {
+    display: inline-block;
+    font-size: 25px;
+    line-height: 1.5;
+}
+
+/* main content3 */
+
+main #main_content3 {
+    background-color: #daf5f3;
+    margin-top: 100px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+main #main_content3 #sub1 {
+    display: flex;
+    margin-left: 100px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+main #main_content3 #sub1 div h2 {
+    display: inline-block;
+    width: 100px;
+    font-size: 50px;
+    padding : 0;
+    letter-spacing: 2px;
+    line-height: 1.5;
+}
+
+main #main_content3 #sub1 p {
+    display: inline-block;
+    text-align: right;
+    line-height: 1.5;
+    margin-top: 30px;
+    margin-left: 150px;
+    margin-right: 80px;
+    padding-top: 70px;
+    font-size: 25px;
+    padding-bottom: 40px;
+}
+
+main #main_content3 #sub2 {
+    display: flex;
+    margin-left: 100px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+main #main_content3 #sub2 div h2 {
+    display: inline-block;
+    width: 400px;
+    font-size: 50px;
+    text-align: right;
+    padding : 0;
+    letter-spacing: 2px;
+    line-height: 1.5;
+}
+
+main #main_content3 #sub2 p {
+    display: inline-block;
+    width: 1000px;
+    line-height: 1.5;
+    margin-top: 50px;
+    margin-right: 90px;
+    padding-top: 30px;
+    font-size: 25px;
+    padding-bottom: 40px;
+}
+
+/* main content4 */
+
+main #main_content4 {
+
+    background-color: #d9eafd;
+    margin: 0;
+    width: 100%;
+    border-radius: 20px;
+}
+
+main #main_content4 #sub1 {
+    display: flex;
+    margin: 0;
+    padding-bottom: 50px;
+    font-size: 50px;
+}
+
+main #main_content4 #sub1 h2 {
+    display: inline-block;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    font-size: 50px;
+    width: 400px;
+    line-height: 1.5;
+}
+
+main #main_content4 #sub1 p {
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 100px;
+    padding-top: 150px;
+    padding-bottom: 50px;
+    font-size: 25px;
+}
+
+main #main_content4 #sub2 {
+    display: flex;
+    margin: 0;
+    padding-bottom: 150px;
+    align-items: center;
+}
+
+main #main_content4 #sub2 h2 {
+    display: inline-block;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    font-size: 50px;
+    width: 400px;
+    line-height: 1.5;
+}
+
+main #main_content4 table {
+    border: solid 5px #ffffff; /* Mengubah warna garis menjadi putih */
+    border-radius: 20px; /* Membuat sudut tabel melengkung */
+    padding: 20px;
+    border-collapse: collapse; /* Menghilangkan jarak antar border */
+    overflow: hidden; /* Memastikan sudut melengkung terlihat */
+    margin-left: 100px;
+}
+
+table #table-header {
+    background-color: #676750; /* Mengubah warna latar belakang header tabel */
+    color: #f1f1f1;
+    text-align: center;
+    font-size: 30px;
+}
+
+table th, table td {
+    border: 3px solid #ffffff; /* Mengubah warna garis sel menjadi putih */
+    padding: 20px; /* Menambah padding pada setiap sel */
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2; /* Mengubah warna latar belakang baris genap */
+    font-size: 20px;
+}
+
+table tr:nth-child(odd) {
+    background-color: #ffffff; /* Mengubah warna latar belakang baris ganjil */
+    font-size: 20px;
+}
+
+footer {
+    margin: 0;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #4d81a0;
+    color: #f1f1f1;
+    text-align: center;
+}
+
+div .clear {
+    clear: both;
+}
