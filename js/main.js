@@ -17,7 +17,7 @@ function hitung_BMI (event) {
         category = 'Gemuk';
     } else {
         category = 'Obesitas';
-    }
+    } 
 
     document.getElementById('bmi').textContent = bmi.toFixed(2);
     document.getElementById('category').textContent = category;
