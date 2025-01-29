@@ -7,7 +7,7 @@ function hitung_BMI (event) {
 
     let bmi = berat_badan / (tinggi_badan * tinggi_badan);
 
-    let category = '';
+    let category = ''; 
 
     if (bmi < 18) {
         category = 'Kurus';
