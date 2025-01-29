@@ -5,6 +5,7 @@ function hitung_BMI (event) {
     event.preventDefault();
 
     // mengambil nilai dari input berat badan dan tinggi badan
+    let gender = document.querySelector('input[name="gender"]:checked').value;
     let berat_badan = parseFloat(document.getElementById('weight').value);
     let tinggi_badan = parseFloat(document.getElementById('height').value);
 
@@ -24,6 +25,7 @@ function hitung_BMI (event) {
     }
 
     // menampilkan nilai BMI dan kategori BMI
+    document.getElementById('gender').textContent = gender;
     document.getElementById('bmi').textContent = bmi.toFixed(2);
     document.getElementById('category').textContent = category;
 }

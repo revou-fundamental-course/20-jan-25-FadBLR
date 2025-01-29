@@ -40,7 +40,12 @@
 
                 <!-- form -->
 
-                <form onsubmit="hitung_BMI(event)">  
+                <form onsubmit="hitung_BMI(event)"> 
+                    <label>Gender :</label>
+                    <br>
+                    <input type="radio" name="gender" value="laki-laki"> laki-laki
+                    <input type="radio" name="gender" value="perempuan"> perempuan
+                    <br><br>
                     <label>Berat Badan (kg) :</label>
                     <br>
                     <input type="text" name="weight" id="weight" placeholder="Berat Badan" required>
@@ -59,6 +64,8 @@
                 <hr>
 
                 <div id="result">
+                    <p>Gender :</p>
+                    <p id="gender"></p>
                     <p>Hasil perhitungan BMI mu : </p>
                     <p id="bmi"></p>
                     <p>Kamu termasuk kedalam kategori: </p>
