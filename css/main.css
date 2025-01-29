@@ -52,7 +52,6 @@ main #main_content1 h2 {
 
 main #main_content1 img {
     float: right;
-    padding-right: 100px;
     padding-top: 100px;
     width: 500px;
     height: auto;
@@ -100,6 +99,8 @@ main div #square1 form {
     padding-bottom: 50px;
     line-height: 1.5;
 }
+
+/* form input */
 
 form input{
     border : none;
@@ -210,7 +211,7 @@ main #main_content3 #sub2 p {
 
 main #main_content4 {
 
-    background-color: #d9eafd;
+    background-color: #d0e6ff;
     margin: 0;
     width: 100%;
     border-radius: 20px;
@@ -235,8 +236,9 @@ main #main_content4 #sub1 h2 {
 
 main #main_content4 #sub1 p {
     display: inline-block;
-    margin-top: 30px;
+    margin-top: 10px;
     margin-left: 100px;
+    margin-right: 100px;
     padding-top: 150px;
     padding-bottom: 50px;
     font-size: 25px;
@@ -260,35 +262,36 @@ main #main_content4 #sub2 h2 {
 }
 
 main #main_content4 table {
-    border: solid 5px #ffffff; /* Mengubah warna garis menjadi putih */
-    border-radius: 20px; /* Membuat sudut tabel melengkung */
+    border: solid 5px #ffffff;
+    border-radius: 20px;
     padding: 20px;
-    border-collapse: collapse; /* Menghilangkan jarak antar border */
-    overflow: hidden; /* Memastikan sudut melengkung terlihat */
+    border-collapse: collapse;
+    overflow: hidden;
     margin-left: 100px;
 }
 
 table #table-header {
-    background-color: #676750; /* Mengubah warna latar belakang header tabel */
+    background-color: #676750;
     color: #f1f1f1;
     text-align: center;
     font-size: 30px;
 }
 
 table th, table td {
-    border: 3px solid #ffffff; /* Mengubah warna garis sel menjadi putih */
-    padding: 20px; /* Menambah padding pada setiap sel */
+    border: 3px solid #ffffff;
+    padding: 20px;
     padding-left: 50px;
     padding-right: 50px;
+    text-align: center;
 }
 
 table tr:nth-child(even) {
-    background-color: #f2f2f2; /* Mengubah warna latar belakang baris genap */
+    background-color: #f2f2f2;
     font-size: 20px;
 }
 
 table tr:nth-child(odd) {
-    background-color: #ffffff; /* Mengubah warna latar belakang baris ganjil */
+    background-color: #ffffff;
     font-size: 20px;
 }
 
@@ -299,8 +302,4 @@ footer {
     background-color: #4d81a0;
     color: #f1f1f1;
     text-align: center;
-}
-
-div .clear {
-    clear: both;
 }

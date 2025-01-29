@@ -38,6 +38,8 @@
 
                 <p></p>
 
+                <!-- form -->
+
                 <form onsubmit="hitung_BMI(event)">  
                     <label>Berat Badan (kg) :</label>
                     <br>
@@ -49,7 +51,9 @@
                     <br><br>
                     <button type="submit" onclick="hitung_BMI()">Calculate</button>
                 </form>
+
             </div><div id="square2">
+
                 <h2>Hasil Pengukuran</h2>
 
                 <hr>
@@ -60,12 +64,15 @@
                     <p>Kamu termasuk kedalam kategori: </p>
                     <p id="category"></p>
                 </div>
+
             </div>
         </div>
 
         <!-- sub-main 3 (Kategori BMI) -->
         <div id="main_content3">
+
             <div id="sub1">
+            
                 <div>
                     <h2>What is BMI?</h2>
                 </div>
@@ -74,10 +81,12 @@
                     BMI (Body Mass Index) adalah ukuran perkiraan lemak tubuh seseorang yang dihitung 
                     berdasarkan berat badan dan tinggi badan. BMI digunakan untuk menentukan 
                     kategori berat badan seseorang, apakah kurus, ideal, berlebihan, atau obesitas
+            
                 </p>
             </div>
 
             <div id="sub2">
+            
                 <p> 
                     Dengan mengetahui BMI masing-masing, kita dapat memantau kesehatan tubuh dan 
                     mencegah risiko penyakit akibat berat badan yang tidak ideal, 
@@ -89,57 +98,69 @@
                         Why is BMI important?
                     </h2>
                 </div>
+            
             </div>
         </div>
 
-            <!-- sub-main4 (Kategori BMI) -->
+        <!-- sub-main4 (Kategori BMI) -->
 
         <div id="main_content4">
+            
             <div id="sub1">
+           
                 <h2>How to Calculate Your BMI</h2>
         
                 <p>
                     BMI dihitung dengan cara membagi berat badan dalam 
                     kilogram dengan tinggi badan dalam meter kuadrat
-                    BMI = weight (kg) / height (m) x height (m)
+                    <br><br>
+                    BMI = weight (kg) / (height (m) x height (m))
                 </p>
 
             </div>
 
             <div id="sub2">
+            
                 <h2>BMI Categories</h2>
+
+                <!-- tabel -->
 
                 <table>
                     <tr id="table-header">
-                        <th>Category</th>
-                        <th>BMI Range</th>
+                        <th>Kategori</th>
+                        <th>Rentang BMI</th>
                     </tr>
                     <tr>
-                        <td>Underweight</td>
-                        <td>Less than 18.5</td>
+                        <td>Kurus</td>
+                        <td>Kurang dari 18.5</td>
                     </tr>
                     <tr>
-                        <td>Normal weight</td>
+                        <td>Ideal (Normal)</td>
                         <td>18.5 - 24.9</td>
                     </tr>
                     <tr>
-                        <td>Overweight</td>
+                        <td>Gemuk</td>
                         <td>25 - 29.9</td>
                     </tr>
                     <tr>
-                        <td>Obesity</td>
-                        <td>30 or more</td>
+                        <td>Obesitas</td>
+                        <td>lebih dari 30</td>
                     </tr>
                 </table>  
+            
             </div>
         </div>
     </main>
+
+    <!-- footer -->
 
     <footer>
         <div>background and vector assets from freepik</div>
         <br>
         <div>&copy; 2025 Fazuu_Izu</div>
     </footer>
+
+    <!-- javascript -->
  
     <script src="js/main.js"></script>
 </body>
