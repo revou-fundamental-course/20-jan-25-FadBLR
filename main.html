@@ -22,11 +22,10 @@
         <div id="main_content1">
             <h2>Yuk! Hitung BMI Mu</h2>
             <img src="assets\rb_5984.png" alt="logo">
-            <br>
+            <div class="clear"></div>
             <div>
                 BMI Calculator, ketahui kondisi kesehatanmu dengan mudah!
             </div>
-            <div class="clear"></div>
         </div>
 
         <!-- sub-main 2 (Kalkulator BMI) -->
@@ -55,6 +54,7 @@
                     <input type="text" name="height" id="height" placeholder="Tinggi Badan" required>
                     <br><br>
                     <button type="submit" onclick="hitung_BMI()">Calculate</button>
+                    <button type="reset" onclick="reset_form()">Reset</button>
                 </form>
 
             </div><div id="square2">
@@ -65,11 +65,11 @@
 
                 <div id="result">
                     <p>Gender :</p>
-                    <p id="gender"></p>
+                    <p id="gender">-</p>
                     <p>Hasil perhitungan BMI mu : </p>
-                    <p id="bmi"></p>
+                    <p id="bmi">0</p>
                     <p>Kamu termasuk kedalam kategori: </p>
-                    <p id="category"></p>
+                    <p id="category">-</p>
                 </div>
 
             </div>

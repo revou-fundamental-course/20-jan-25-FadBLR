@@ -29,3 +29,10 @@ function hitung_BMI (event) {
     document.getElementById('bmi').textContent = bmi.toFixed(2);
     document.getElementById('category').textContent = category;
 }
+
+// fungsi reset
+function reset_form () {
+    document.getElementById('gender').textContent = '-';
+    document.getElementById('bmi').textContent = '0';
+    document.getElementById('category').textContent = '-';
+}
